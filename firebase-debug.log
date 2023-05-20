@@ -1,0 +1,194 @@
+[debug] [2023-05-20T09:20:06.286Z] ----------------------------------------------------------------------
+[debug] [2023-05-20T09:20:06.306Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-20T09:20:06.308Z] CLI Version:   12.0.0
+[debug] [2023-05-20T09:20:06.311Z] Platform:      win32
+[debug] [2023-05-20T09:20:06.313Z] Node Version:  v18.13.0
+[debug] [2023-05-20T09:20:06.318Z] Time:          Sat May 20 2023 02:20:06 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-05-20T09:20:06.318Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-20T09:20:06.871Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T09:20:06.874Z] > authorizing via signed-in user (randyitoe2255@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\Desktop\School work\SchoolTest\Kanban-firebase\Tasky-Fire
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-05-20T09:25:28.315Z] ----------------------------------------------------------------------
+[debug] [2023-05-20T09:25:28.322Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-20T09:25:28.324Z] CLI Version:   12.0.0
+[debug] [2023-05-20T09:25:28.325Z] Platform:      win32
+[debug] [2023-05-20T09:25:28.326Z] Node Version:  v18.13.0
+[debug] [2023-05-20T09:25:28.449Z] Time:          Sat May 20 2023 02:25:28 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-05-20T09:25:28.450Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-20T09:25:28.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T09:25:28.741Z] > authorizing via signed-in user (randyitoe2255@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\Desktop\School work\SchoolTest\Kanban-firebase\Tasky-Fire
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-20T09:26:09.854Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-05-20T09:26:11.343Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-05-20T09:26:11.344Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project kanbanfire---r (KanbanFire - R) 
+[info] 
+=== Firestore Setup
+[debug] [2023-05-20T09:26:13.337Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/firestore.googleapis.com [none]
+[debug] [2023-05-20T09:26:13.338Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/firestore.googleapis.com x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:15.165Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/firestore.googleapis.com 200
+[debug] [2023-05-20T09:26:15.165Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/firestore.googleapis.com [omitted]
+[debug] [2023-05-20T09:26:15.167Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default) [none]
+[debug] [2023-05-20T09:26:16.300Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default) 200
+[debug] [2023-05-20T09:26:16.300Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default) {"name":"projects/kanbanfire---r/databases/(default)","uid":"c6354164-79cc-4bc6-afd0-7129f0caa0ca","createTime":"2023-05-11T10:22:41.505433Z","updateTime":"2023-05-11T10:22:41.505433Z","locationId":"us-east1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","appEngineIntegrationMode":"DISABLED","keyPrefix":"p","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IOyVpcnegv8CMPrlxNDe+/4C"}
+[debug] [2023-05-20T09:26:16.301Z] database_type: FIRESTORE_NATIVE
+[debug] [2023-05-20T09:26:16.302Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T09:26:16.303Z] > authorizing via signed-in user (randyitoe2255@gmail.com)
+[debug] [2023-05-20T09:26:16.304Z] [iam] checking project kanbanfire---r for permissions ["firebase.projects.get"]
+[debug] [2023-05-20T09:26:16.306Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions [none]
+[debug] [2023-05-20T09:26:16.306Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:16.307Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-20T09:26:17.174Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions 200
+[debug] [2023-05-20T09:26:17.174Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-05-20T09:26:33.904Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/releases pageSize=10&pageToken=
+[debug] [2023-05-20T09:26:35.369Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/releases 200
+[debug] [2023-05-20T09:26:35.369Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/releases {"releases":[{"name":"projects/kanbanfire---r/releases/cloud.firestore","rulesetName":"projects/kanbanfire---r/rulesets/eea74f5d-0887-4a01-8331-5ab3330604bd","createTime":"2023-05-17T13:05:31.220611Z","updateTime":"2023-05-17T13:18:01.518914Z"}]}
+[debug] [2023-05-20T09:26:35.370Z] Found ruleset: projects/kanbanfire---r/rulesets/eea74f5d-0887-4a01-8331-5ab3330604bd
+[debug] [2023-05-20T09:26:35.371Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/rulesets/eea74f5d-0887-4a01-8331-5ab3330604bd [none]
+[debug] [2023-05-20T09:26:36.559Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/rulesets/eea74f5d-0887-4a01-8331-5ab3330604bd 200
+[debug] [2023-05-20T09:26:36.559Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/kanbanfire---r/rulesets/eea74f5d-0887-4a01-8331-5ab3330604bd [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-05-20T09:26:51.271Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2023-05-20T09:26:51.290Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2023-05-20T09:26:52.412Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2023-05-20T09:26:52.412Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2023-05-20T09:26:52.426Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2023-05-20T09:26:52.427Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/kanbanfire---r/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/kanbanfire---r/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] 
+=== Functions Setup
+[debug] [2023-05-20T09:26:52.438Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T09:26:52.440Z] > authorizing via signed-in user (randyitoe2255@gmail.com)
+[debug] [2023-05-20T09:26:52.441Z] [iam] checking project kanbanfire---r for permissions ["firebase.projects.get"]
+[debug] [2023-05-20T09:26:52.443Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions [none]
+[debug] [2023-05-20T09:26:52.443Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:52.444Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-20T09:26:53.334Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions 200
+[debug] [2023-05-20T09:26:53.335Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kanbanfire---r:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-20T09:26:53.339Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-05-20T09:26:53.339Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:53.350Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-05-20T09:26:53.350Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:54.608Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com 200
+[debug] [2023-05-20T09:26:54.609Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2023-05-20T09:26:54.610Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2023-05-20T09:26:54.610Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:26:54.637Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/runtimeconfig.googleapis.com 200
+[debug] [2023-05-20T09:26:54.638Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-05-20T09:26:56.546Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2023-05-20T09:26:56.546Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2023-05-20T09:27:06.551Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-05-20T09:27:06.551Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/kanbanfire---r
+[debug] [2023-05-20T09:27:07.906Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com 200
+[debug] [2023-05-20T09:27:07.906Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/kanbanfire---r/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[debug] [2023-05-20T09:27:57.867Z] ----------------------------------------------------------------------
+[debug] [2023-05-20T09:27:57.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-20T09:27:57.876Z] CLI Version:   12.0.0
+[debug] [2023-05-20T09:27:57.877Z] Platform:      win32
+[debug] [2023-05-20T09:27:57.878Z] Node Version:  v18.13.0
+[debug] [2023-05-20T09:27:57.881Z] Time:          Sat May 20 2023 02:27:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-05-20T09:27:57.881Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-20T09:27:58.160Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T09:27:58.162Z] > authorizing via signed-in user (randyitoe2255@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\Desktop\School work\SchoolTest\Kanban-firebase\Tasky-Fire
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-20T09:28:08.570Z] Using project from CLI flag: kanbanfire---r
+[debug] [2023-05-20T09:28:08.583Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kanbanfire---r [none]
+[debug] [2023-05-20T09:28:09.548Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kanbanfire---r 200
+[debug] [2023-05-20T09:28:09.549Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kanbanfire---r {"projectId":"kanbanfire---r","projectNumber":"902066760891","displayName":"KanbanFire - R","name":"projects/kanbanfire---r","resources":{"hostingSite":"kanbanfire---r","realtimeDatabaseInstance":"kanbanfire---r-default-rtdb"},"state":"ACTIVE","etag":"1_82a018f3-70ef-4bfe-865f-21c48bdc4b58"}
+[info] i  Using project kanbanfire---r (KanbanFire - R) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-05-20T09:28:29.974Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-05-20T09:28:30.472Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-05-20T09:28:30.473Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.22.0","browserURL":"https://www.gstatic.com/firebasejs/9.22.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.22.0/firebase.tgz"},"live":{"version":"9.22","browserURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.22.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.22.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.22.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.22.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.22.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.22.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\DELL\Desktop\School work\SchoolTest\Kanban-firebase\Tasky-Fire 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=663029662&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
